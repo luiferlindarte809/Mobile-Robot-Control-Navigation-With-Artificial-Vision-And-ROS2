@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating bno055_ros.egg-info
+writing bno055_ros.egg-info/PKG-INFO
+writing dependency_links to bno055_ros.egg-info/dependency_links.txt
+writing entry points to bno055_ros.egg-info/entry_points.txt
+writing requirements to bno055_ros.egg-info/requires.txt
+writing top-level names to bno055_ros.egg-info/top_level.txt
+writing manifest file 'bno055_ros.egg-info/SOURCES.txt'
+reading manifest file 'bno055_ros.egg-info/SOURCES.txt'
+writing manifest file 'bno055_ros.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pi/bno055_ros/install/bno055_ros/lib/python3.12/site-packages/bno055-ros.egg-link (link to .)
+Installing BNO script to /home/pi/bno055_ros/install/bno055_ros/lib/bno055_ros
+
+Installed /home/pi/bno055_ros/build/bno055_ros
+running symlink_data
+creating /home/pi/bno055_ros/install/bno055_ros/share/ament_index
+creating /home/pi/bno055_ros/install/bno055_ros/share/ament_index/resource_index
+creating /home/pi/bno055_ros/install/bno055_ros/share/ament_index/resource_index/packages
+symbolically linking /home/pi/bno055_ros/build/bno055_ros/resource/bno055_ros -> /home/pi/bno055_ros/install/bno055_ros/share/ament_index/resource_index/packages
+symbolically linking /home/pi/bno055_ros/build/bno055_ros/package.xml -> /home/pi/bno055_ros/install/bno055_ros/share/bno055_ros

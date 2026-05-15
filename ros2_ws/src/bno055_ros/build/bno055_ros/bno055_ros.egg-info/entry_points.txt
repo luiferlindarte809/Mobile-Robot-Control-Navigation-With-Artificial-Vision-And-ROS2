@@ -1,0 +1,2 @@
+[console_scripts]
+BNO = bno055_ros.bno_node:main

@@ -1,0 +1,94 @@
+[0.404s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.404s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, meson_args=[], ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff9c31de80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9c299760>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9c299760>>, mixin_verb=('build',))
+[0.477s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.477s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.477s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.477s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.477s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.477s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.477s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pi/bno055_ros'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.608s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'bno055_ros'
+[0.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.638s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.638s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.645s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 340 installed packages in /opt/ros/jazzy
+[0.650s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'bno055_ros' build argument 'cmake_args' from command line to 'None'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'bno055_ros' build argument 'cmake_target' from command line to 'None'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'bno055_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'bno055_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'bno055_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'bno055_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'bno055_ros' build argument 'meson_args' from command line to '[]'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'bno055_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'bno055_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'bno055_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.741s] DEBUG:colcon.colcon_core.verb:Building package 'bno055_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/bno055_ros/build/bno055_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/bno055_ros/install/bno055_ros', 'merge_install': False, 'meson_args': [], 'path': '/home/pi/bno055_ros', 'symlink_install': True, 'test_result_base': None}
+[0.741s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.743s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.743s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pi/bno055_ros' with build type 'ament_python'
+[0.744s] Level 1:colcon.colcon_core.shell:create_environment_hook('bno055_ros', 'ament_prefix_path')
+[0.748s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/bno055_ros/install/bno055_ros/share/bno055_ros/hook/ament_prefix_path.ps1'
+[0.749s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/bno055_ros/install/bno055_ros/share/bno055_ros/hook/ament_prefix_path.dsv'
+[0.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/bno055_ros/install/bno055_ros/share/bno055_ros/hook/ament_prefix_path.sh'
+[0.751s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.751s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.180s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pi/bno055_ros'
+[1.181s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.181s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/bno055_ros/build/bno055_ros': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/bno055_ros/build/bno055_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/bno055_ros/install/bno055_ros/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/bno055_ros/build/bno055_ros/build --no-deps symlink_data
+[3.743s] Level 1:colcon.colcon_core.shell:create_environment_hook('bno055_ros', 'pythonpath_develop')
+[3.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/bno055_ros/build/bno055_ros/share/bno055_ros/hook/pythonpath_develop.ps1'
+[3.745s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/bno055_ros/build/bno055_ros/share/bno055_ros/hook/pythonpath_develop.dsv'
+[3.746s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/bno055_ros/build/bno055_ros' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/bno055_ros/build/bno055_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/bno055_ros/install/bno055_ros/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/bno055_ros/build/bno055_ros/build --no-deps symlink_data
+[3.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/bno055_ros/build/bno055_ros/share/bno055_ros/hook/pythonpath_develop.sh'
+[3.754s] Level 1:colcon.colcon_core.environment:checking '/home/pi/bno055_ros/install/bno055_ros' for CMake module files
+[3.756s] Level 1:colcon.colcon_core.environment:checking '/home/pi/bno055_ros/install/bno055_ros' for CMake config files
+[3.757s] Level 1:colcon.colcon_core.environment:checking '/home/pi/bno055_ros/install/bno055_ros/lib'
+[3.757s] Level 1:colcon.colcon_core.environment:checking '/home/pi/bno055_ros/install/bno055_ros/bin'
+[3.757s] Level 1:colcon.colcon_core.environment:checking '/home/pi/bno055_ros/install/bno055_ros/lib/pkgconfig/bno055_ros.pc'
+[3.758s] Level 1:colcon.colcon_core.environment:checking '/home/pi/bno055_ros/install/bno055_ros/lib/python3.12/site-packages'
+[3.758s] Level 1:colcon.colcon_core.shell:create_environment_hook('bno055_ros', 'pythonpath')
+[3.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/bno055_ros/install/bno055_ros/share/bno055_ros/hook/pythonpath.ps1'
+[3.760s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/bno055_ros/install/bno055_ros/share/bno055_ros/hook/pythonpath.dsv'
+[3.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/bno055_ros/install/bno055_ros/share/bno055_ros/hook/pythonpath.sh'
+[3.761s] Level 1:colcon.colcon_core.environment:checking '/home/pi/bno055_ros/install/bno055_ros/bin'
+[3.761s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bno055_ros)
+[3.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/bno055_ros/install/bno055_ros/share/bno055_ros/package.ps1'
+[3.763s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/bno055_ros/install/bno055_ros/share/bno055_ros/package.dsv'
+[3.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/bno055_ros/install/bno055_ros/share/bno055_ros/package.sh'
+[3.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/bno055_ros/install/bno055_ros/share/bno055_ros/package.bash'
+[3.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/bno055_ros/install/bno055_ros/share/bno055_ros/package.zsh'
+[3.770s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/bno055_ros/install/bno055_ros/share/colcon-core/packages/bno055_ros)
+[3.771s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.771s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.771s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.771s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.783s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.784s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.784s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.828s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.829s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/bno055_ros/install/local_setup.ps1'
+[3.831s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/bno055_ros/install/_local_setup_util_ps1.py'
+[3.833s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/bno055_ros/install/setup.ps1'
+[3.836s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/bno055_ros/install/local_setup.sh'
+[3.838s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/bno055_ros/install/_local_setup_util_sh.py'
+[3.839s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/bno055_ros/install/setup.sh'
+[3.841s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/bno055_ros/install/local_setup.bash'
+[3.842s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/bno055_ros/install/setup.bash'
+[3.843s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/bno055_ros/install/local_setup.zsh'
+[3.844s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/bno055_ros/install/setup.zsh'
