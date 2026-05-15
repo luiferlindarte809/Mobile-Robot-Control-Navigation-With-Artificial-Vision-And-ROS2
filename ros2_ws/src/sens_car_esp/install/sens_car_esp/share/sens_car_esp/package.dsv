@@ -1,0 +1,9 @@
+source;share/sens_car_esp/hook/pythonpath.ps1
+source;share/sens_car_esp/hook/pythonpath.dsv
+source;share/sens_car_esp/hook/pythonpath.sh
+source;share/sens_car_esp/hook/ament_prefix_path.ps1
+source;share/sens_car_esp/hook/ament_prefix_path.dsv
+source;share/sens_car_esp/hook/ament_prefix_path.sh
+source;../../build/sens_car_esp/share/sens_car_esp/hook/pythonpath_develop.ps1
+source;../../build/sens_car_esp/share/sens_car_esp/hook/pythonpath_develop.dsv
+source;../../build/sens_car_esp/share/sens_car_esp/hook/pythonpath_develop.sh

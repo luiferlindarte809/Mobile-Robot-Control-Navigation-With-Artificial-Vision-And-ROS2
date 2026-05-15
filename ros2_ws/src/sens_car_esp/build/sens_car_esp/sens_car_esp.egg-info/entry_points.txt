@@ -1,0 +1,2 @@
+[console_scripts]
+Sens_Car_ESP = sens_car_esp.serial_node:main

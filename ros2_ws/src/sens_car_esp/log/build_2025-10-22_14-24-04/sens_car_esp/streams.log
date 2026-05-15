@@ -1,0 +1,24 @@
+[1.383s] Invoking command in '/home/pi/ros2_ws/src/sens_car_esp/build/sens_car_esp': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/ros2_ws/src/sens_car_esp/build/sens_car_esp/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/src/sens_car_esp/install/sens_car_esp/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/ros2_ws/src/sens_car_esp/build/sens_car_esp/build --no-deps symlink_data
+[1.888s] running develop
+[2.200s] running egg_info
+[2.201s] creating sens_car_esp.egg-info
+[2.232s] writing sens_car_esp.egg-info/PKG-INFO
+[2.233s] writing dependency_links to sens_car_esp.egg-info/dependency_links.txt
+[2.233s] writing entry points to sens_car_esp.egg-info/entry_points.txt
+[2.233s] writing requirements to sens_car_esp.egg-info/requires.txt
+[2.233s] writing top-level names to sens_car_esp.egg-info/top_level.txt
+[2.234s] writing manifest file 'sens_car_esp.egg-info/SOURCES.txt'
+[2.303s] reading manifest file 'sens_car_esp.egg-info/SOURCES.txt'
+[2.304s] writing manifest file 'sens_car_esp.egg-info/SOURCES.txt'
+[2.340s] running build_ext
+[2.340s] Creating /home/pi/ros2_ws/src/sens_car_esp/install/sens_car_esp/lib/python3.12/site-packages/sens-car-esp.egg-link (link to .)
+[2.341s] Installing Sens_Car_ESP script to /home/pi/ros2_ws/src/sens_car_esp/install/sens_car_esp/lib/sens_car_esp
+[2.341s] 
+[2.341s] Installed /home/pi/ros2_ws/src/sens_car_esp/build/sens_car_esp
+[2.342s] running symlink_data
+[2.342s] creating /home/pi/ros2_ws/src/sens_car_esp/install/sens_car_esp/share/ament_index
+[2.342s] creating /home/pi/ros2_ws/src/sens_car_esp/install/sens_car_esp/share/ament_index/resource_index
+[2.342s] creating /home/pi/ros2_ws/src/sens_car_esp/install/sens_car_esp/share/ament_index/resource_index/packages
+[2.342s] symbolically linking /home/pi/ros2_ws/src/sens_car_esp/build/sens_car_esp/resource/sens_car_esp -> /home/pi/ros2_ws/src/sens_car_esp/install/sens_car_esp/share/ament_index/resource_index/packages
+[2.342s] symbolically linking /home/pi/ros2_ws/src/sens_car_esp/build/sens_car_esp/package.xml -> /home/pi/ros2_ws/src/sens_car_esp/install/sens_car_esp/share/sens_car_esp
+[2.466s] Invoked command in '/home/pi/ros2_ws/src/sens_car_esp/build/sens_car_esp' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/ros2_ws/src/sens_car_esp/build/sens_car_esp/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/src/sens_car_esp/install/sens_car_esp/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/ros2_ws/src/sens_car_esp/build/sens_car_esp/build --no-deps symlink_data

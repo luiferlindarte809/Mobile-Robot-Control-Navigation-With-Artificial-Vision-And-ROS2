@@ -1,0 +1,17 @@
+[2.418s] Invoking command in '/home/pi/ros2_ws/src/sens_car_esp/build/sens_car_esp': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/ros2_ws/src/sens_car_esp/build/sens_car_esp/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/src/sens_car_esp/install/sens_car_esp/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/ros2_ws/src/sens_car_esp/build/sens_car_esp/build --no-deps symlink_data
+[2.957s] running develop
+[3.303s] running egg_info
+[3.335s] writing sens_car_esp.egg-info/PKG-INFO
+[3.336s] writing dependency_links to sens_car_esp.egg-info/dependency_links.txt
+[3.342s] writing entry points to sens_car_esp.egg-info/entry_points.txt
+[3.343s] writing requirements to sens_car_esp.egg-info/requires.txt
+[3.344s] writing top-level names to sens_car_esp.egg-info/top_level.txt
+[3.403s] reading manifest file 'sens_car_esp.egg-info/SOURCES.txt'
+[3.405s] writing manifest file 'sens_car_esp.egg-info/SOURCES.txt'
+[3.438s] running build_ext
+[3.438s] Creating /home/pi/ros2_ws/src/sens_car_esp/install/sens_car_esp/lib/python3.12/site-packages/sens-car-esp.egg-link (link to .)
+[3.439s] Installing Sens_Car_ESP script to /home/pi/ros2_ws/src/sens_car_esp/install/sens_car_esp/lib/sens_car_esp
+[3.440s] 
+[3.440s] Installed /home/pi/ros2_ws/src/sens_car_esp/build/sens_car_esp
+[3.440s] running symlink_data
+[3.551s] Invoked command in '/home/pi/ros2_ws/src/sens_car_esp/build/sens_car_esp' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/ros2_ws/src/sens_car_esp/build/sens_car_esp/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/src/sens_car_esp/install/sens_car_esp/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/ros2_ws/src/sens_car_esp/build/sens_car_esp/build --no-deps symlink_data

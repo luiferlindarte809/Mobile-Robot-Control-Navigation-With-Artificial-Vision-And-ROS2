@@ -1,0 +1,53 @@
+[0.000000] (-) TimerEvent: {}
+[0.000414] (sens_car_esp) JobQueued: {'identifier': 'sens_car_esp', 'dependencies': OrderedDict()}
+[0.001091] (sens_car_esp) JobStarted: {'identifier': 'sens_car_esp'}
+[0.099555] (-) TimerEvent: {}
+[0.199888] (-) TimerEvent: {}
+[0.300192] (-) TimerEvent: {}
+[0.400608] (-) TimerEvent: {}
+[0.500898] (-) TimerEvent: {}
+[0.601212] (-) TimerEvent: {}
+[0.701501] (-) TimerEvent: {}
+[0.801781] (-) TimerEvent: {}
+[0.902078] (-) TimerEvent: {}
+[1.002399] (-) TimerEvent: {}
+[1.102680] (-) TimerEvent: {}
+[1.202962] (-) TimerEvent: {}
+[1.303273] (-) TimerEvent: {}
+[1.380967] (sens_car_esp) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/pi/ros2_ws/src/sens_car_esp/build/sens_car_esp/build', '--no-deps', 'symlink_data'], 'cwd': '/home/pi/ros2_ws/src/sens_car_esp/build/sens_car_esp', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2329-0-pi-desktop_TIME90662', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2047', 'SYSTEMD_EXEC_PID': '2329', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3127', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi', 'JOURNAL_STREAM': '8:19537', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/home/pi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/pi-desktop:@/tmp/.ICE-unix/2288,unix/pi-desktop:/tmp/.ICE-unix/2288', 'INVOCATION_ID': '943e0b1eb48b47a4a011f60d17529cfb', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.FIW2E3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:6db388fa-0702-4c2c-b655-1891a72f0e84', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pi/ros2_ws/src/sens_car_esp/build/sens_car_esp', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/ros2_ws/src/sens_car_esp/build/sens_car_esp/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/src/sens_car_esp/install/sens_car_esp/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.403364] (-) TimerEvent: {}
+[1.503665] (-) TimerEvent: {}
+[1.603973] (-) TimerEvent: {}
+[1.704279] (-) TimerEvent: {}
+[1.804584] (-) TimerEvent: {}
+[1.888491] (sens_car_esp) StdoutLine: {'line': b'running develop\n'}
+[1.904684] (-) TimerEvent: {}
+[2.004970] (-) TimerEvent: {}
+[2.105275] (-) TimerEvent: {}
+[2.201362] (sens_car_esp) StdoutLine: {'line': b'running egg_info\n'}
+[2.201621] (sens_car_esp) StdoutLine: {'line': b'creating sens_car_esp.egg-info\n'}
+[2.205347] (-) TimerEvent: {}
+[2.233290] (sens_car_esp) StdoutLine: {'line': b'writing sens_car_esp.egg-info/PKG-INFO\n'}
+[2.233725] (sens_car_esp) StdoutLine: {'line': b'writing dependency_links to sens_car_esp.egg-info/dependency_links.txt\n'}
+[2.234247] (sens_car_esp) StdoutLine: {'line': b'writing entry points to sens_car_esp.egg-info/entry_points.txt\n'}
+[2.234421] (sens_car_esp) StdoutLine: {'line': b'writing requirements to sens_car_esp.egg-info/requires.txt\n'}
+[2.234539] (sens_car_esp) StdoutLine: {'line': b'writing top-level names to sens_car_esp.egg-info/top_level.txt\n'}
+[2.234657] (sens_car_esp) StdoutLine: {'line': b"writing manifest file 'sens_car_esp.egg-info/SOURCES.txt'\n"}
+[2.304321] (sens_car_esp) StdoutLine: {'line': b"reading manifest file 'sens_car_esp.egg-info/SOURCES.txt'\n"}
+[2.305136] (sens_car_esp) StdoutLine: {'line': b"writing manifest file 'sens_car_esp.egg-info/SOURCES.txt'\n"}
+[2.305411] (-) TimerEvent: {}
+[2.340297] (sens_car_esp) StdoutLine: {'line': b'running build_ext\n'}
+[2.340759] (sens_car_esp) StdoutLine: {'line': b'Creating /home/pi/ros2_ws/src/sens_car_esp/install/sens_car_esp/lib/python3.12/site-packages/sens-car-esp.egg-link (link to .)\n'}
+[2.342043] (sens_car_esp) StdoutLine: {'line': b'Installing Sens_Car_ESP script to /home/pi/ros2_ws/src/sens_car_esp/install/sens_car_esp/lib/sens_car_esp\n'}
+[2.342412] (sens_car_esp) StdoutLine: {'line': b'\n'}
+[2.342528] (sens_car_esp) StdoutLine: {'line': b'Installed /home/pi/ros2_ws/src/sens_car_esp/build/sens_car_esp\n'}
+[2.342608] (sens_car_esp) StdoutLine: {'line': b'running symlink_data\n'}
+[2.342716] (sens_car_esp) StdoutLine: {'line': b'creating /home/pi/ros2_ws/src/sens_car_esp/install/sens_car_esp/share/ament_index\n'}
+[2.342836] (sens_car_esp) StdoutLine: {'line': b'creating /home/pi/ros2_ws/src/sens_car_esp/install/sens_car_esp/share/ament_index/resource_index\n'}
+[2.342916] (sens_car_esp) StdoutLine: {'line': b'creating /home/pi/ros2_ws/src/sens_car_esp/install/sens_car_esp/share/ament_index/resource_index/packages\n'}
+[2.343019] (sens_car_esp) StdoutLine: {'line': b'symbolically linking /home/pi/ros2_ws/src/sens_car_esp/build/sens_car_esp/resource/sens_car_esp -> /home/pi/ros2_ws/src/sens_car_esp/install/sens_car_esp/share/ament_index/resource_index/packages\n'}
+[2.343123] (sens_car_esp) StdoutLine: {'line': b'symbolically linking /home/pi/ros2_ws/src/sens_car_esp/build/sens_car_esp/package.xml -> /home/pi/ros2_ws/src/sens_car_esp/install/sens_car_esp/share/sens_car_esp\n'}
+[2.405590] (-) TimerEvent: {}
+[2.466888] (sens_car_esp) CommandEnded: {'returncode': 0}
+[2.481370] (sens_car_esp) JobEnded: {'identifier': 'sens_car_esp', 'rc': 0}
+[2.482403] (-) EventReactorShutdown: {}

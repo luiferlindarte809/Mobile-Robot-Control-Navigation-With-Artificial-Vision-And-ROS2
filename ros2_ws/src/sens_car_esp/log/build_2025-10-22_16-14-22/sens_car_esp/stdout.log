@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing sens_car_esp.egg-info/PKG-INFO
+writing dependency_links to sens_car_esp.egg-info/dependency_links.txt
+writing entry points to sens_car_esp.egg-info/entry_points.txt
+writing requirements to sens_car_esp.egg-info/requires.txt
+writing top-level names to sens_car_esp.egg-info/top_level.txt
+reading manifest file 'sens_car_esp.egg-info/SOURCES.txt'
+writing manifest file 'sens_car_esp.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pi/ros2_ws/src/sens_car_esp/install/sens_car_esp/lib/python3.12/site-packages/sens-car-esp.egg-link (link to .)
+Installing Sens_Car_ESP script to /home/pi/ros2_ws/src/sens_car_esp/install/sens_car_esp/lib/sens_car_esp
+
+Installed /home/pi/ros2_ws/src/sens_car_esp/build/sens_car_esp
+running symlink_data
