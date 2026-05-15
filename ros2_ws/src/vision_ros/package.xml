@@ -1,0 +1,16 @@
+<package format="3">
+  <name>vision_ros</name>
+  <version>0.0.1</version>
+  <description>Nodo ROS 2 que publica la clasificación de señales.</description>
+  <maintainer email="pi@example.com">pi</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
